@@ -5,7 +5,7 @@ import lose from "../../assets/lose.gif";
 const GameOver = props => {
   const winResult = (
     <div className="win">
-      <h2>You won!</h2>
+      <h2>You won!</h2> 
       <img src={win} alt="win" />
     </div>
   );

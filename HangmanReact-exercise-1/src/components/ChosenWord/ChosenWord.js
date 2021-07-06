@@ -7,12 +7,12 @@ const generateWordDashMix = (word, letters) =>
     .join(" ");
 
 const ChosenWord = props => (
-  <>
+  <div>
     <h2>Current word:</h2>
     <div className="the_word">
       {generateWordDashMix(props.word, props.guessedLetters)}
     </div>
-  </>
+  </div>
 );
 
 export default ChosenWord;

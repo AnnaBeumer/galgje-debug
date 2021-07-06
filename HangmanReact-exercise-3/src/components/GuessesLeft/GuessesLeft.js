@@ -6,4 +6,4 @@ const GuessesLeft = props => (
   </p>
 );
 
-export default GuessesLeft;
+export default GuessesLeft; 
